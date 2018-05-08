@@ -1,0 +1,71 @@
+version: "3.2"
+
+services:
+  powerdns:
+    image: magichuihui/powerdns:v0.1
+    volumes:
+      - ./pdns.conf:/etc/pdns/pdns.conf
+    ports:
+      - 127.0.0.1:53:53/tcp
+      - 127.0.0.1:53:53/udp
+      - 8081:8081/tcp
+    networks:
+      - powerdns-net
+    command: /usr/sbin/pdns_server --daemon=no --guardian=no --loglevel=9
+
+  powerdns-admin:
+    image: magichuihui/powerdns-admin:v0.1
+    container_name: powerdns-admin
+    ports:
+      - "9191:9191"
+    volumes:
+      - .:/powerdns-admin/
+      - "./configs/${ENVIRONMENT}.py:/powerdns-admin/config.py"
+    logging:
+      driver: json-file
+      options:
+        max-size: 50m
+    networks:
+      - powerdns-net
+    environment:
+      - ENVIRONMENT=${ENVIRONMENT}
+      - PDA_DB_HOST=${PDA_DB_HOST}
+      - PDA_DB_NAME=${PDA_DB_NAME}
+      - PDA_DB_USER=${PDA_DB_USER}
+      - PDA_DB_PASSWORD=${PDA_DB_PASSWORD}
+      - PDNS_HOST=${PDNS_HOST}
+      - PDNS_API_KEY=${PDNS_API_KEY}
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+    depends_on:
+      - powerdns-admin-mysql
+
+  powerdns-admin-mysql:
+    image: mysql/mysql-server:5.7
+    hostname: ${PDA_DB_HOST}
+    container_name: powerdns-admin-mysql
+    networks:
+      - powerdns-net
+    environment:
+      - MYSQL_DATABASE=${PDA_DB_NAME}
+      - MYSQL_USER=${PDA_DB_USER}
+      - MYSQL_PASSWORD=${PDA_DB_PASSWORD}
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 10s
+      retries: 5
+
+networks:
+  powerdns-net:
+    driver: overlay
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.31.0.0/24
+

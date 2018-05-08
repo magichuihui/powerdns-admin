@@ -1,0 +1,1217 @@
+2018-05-07 05:36:11,476 - app.models - WARNING - User "root" does not exist
+2018-05-07 05:37:04,989 - app.models - INFO - User "magichuihui" logged in successfully
+2018-05-07 05:37:05,006 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:05,009 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 2
+2018-05-07 05:37:05,018 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:05,025 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3954
+2018-05-07 05:37:11,207 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:11,210 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 2
+2018-05-07 05:37:11,219 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:11,221 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3954
+2018-05-07 05:37:17,596 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:17,598 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/config HTTP/1.1" 200 19694
+2018-05-07 05:37:17,600 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:17,602 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3954
+2018-05-07 05:37:38,978 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:38,980 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/config HTTP/1.1" 200 19694
+2018-05-07 05:37:38,982 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:38,985 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 05:37:46,921 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:46,924 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 2
+2018-05-07 05:37:46,934 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:46,936 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 05:37:49,091 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:49,093 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/config HTTP/1.1" 200 19694
+2018-05-07 05:37:49,095 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:49,097 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 05:37:50,840 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:50,843 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 2
+2018-05-07 05:37:50,849 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:37:50,852 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 05:38:09,361 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:38:09,363 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/config HTTP/1.1" 200 19694
+2018-05-07 05:38:09,365 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:38:09,367 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 05:38:11,281 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:38:11,283 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 2
+2018-05-07 05:38:11,290 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pdns-server
+2018-05-07 05:38:11,292 - urllib3.connectionpool - DEBUG - http://pdns-server:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 05:59:20,648 - app.models - WARNING - User "magichuihui" does not exist
+2018-05-07 06:00:11,809 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:12,813 - app.models - ERROR - Can not update domain table. Error: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/zones (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a68d3c8>: Failed to establish a new connection: [Errno 113] No route to host',))
+2018-05-07 06:00:12,833 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:13,670 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:13,835 - app.models - ERROR - Can not get server statistics.
+2018-05-07 06:00:13,886 - app.models - DEBUG - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f301a68de10>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a68de10>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/powerdns-admin/app/models.py", line 1381, in get_statistic
+    jdata = utils.fetch_json(urljoin(PDNS_STATS_URL, API_EXTENDED_URL + '/servers/{0}/statistics'.format(self.server_id)), headers=headers, method='GET')
+  File "/powerdns-admin/app/lib/utils.py", line 104, in fetch_json
+    accept='application/json; q=1')
+  File "/powerdns-admin/app/lib/utils.py", line 91, in fetch_remote
+    params=params
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a68de10>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+2018-05-07 06:00:14,681 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:18,348 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:19,351 - app.models - ERROR - Can not update domain table. Error: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/zones (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a683400>: Failed to establish a new connection: [Errno 113] No route to host',))
+2018-05-07 06:00:19,359 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:19,729 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:20,361 - app.models - ERROR - Can not get server statistics.
+2018-05-07 06:00:20,363 - app.models - DEBUG - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f301a6a0630>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a6a0630>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/powerdns-admin/app/models.py", line 1381, in get_statistic
+    jdata = utils.fetch_json(urljoin(PDNS_STATS_URL, API_EXTENDED_URL + '/servers/{0}/statistics'.format(self.server_id)), headers=headers, method='GET')
+  File "/powerdns-admin/app/lib/utils.py", line 104, in fetch_json
+    accept='application/json; q=1')
+  File "/powerdns-admin/app/lib/utils.py", line 91, in fetch_remote
+    params=params
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a6a0630>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+2018-05-07 06:00:20,738 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:22,298 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:23,301 - app.models - ERROR - Can not update domain table. Error: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/zones (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a5f76a0>: Failed to establish a new connection: [Errno 113] No route to host',))
+2018-05-07 06:00:23,309 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:24,311 - app.models - ERROR - Can not get server statistics.
+2018-05-07 06:00:24,312 - app.models - DEBUG - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f301a5bc2b0>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a5bc2b0>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/powerdns-admin/app/models.py", line 1381, in get_statistic
+    jdata = utils.fetch_json(urljoin(PDNS_STATS_URL, API_EXTENDED_URL + '/servers/{0}/statistics'.format(self.server_id)), headers=headers, method='GET')
+  File "/powerdns-admin/app/lib/utils.py", line 104, in fetch_json
+    accept='application/json; q=1')
+  File "/powerdns-admin/app/lib/utils.py", line 91, in fetch_remote
+    params=params
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a5bc2b0>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+2018-05-07 06:00:25,014 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:26,017 - app.models - ERROR - Can not get server configuration.
+2018-05-07 06:00:26,020 - app.models - DEBUG - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f301a69e0b8>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/config (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a69e0b8>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/powerdns-admin/app/models.py", line 1366, in get_config
+    jdata = utils.fetch_json(urljoin(PDNS_STATS_URL, API_EXTENDED_URL + '/servers/{0}/config'.format(self.server_id)), headers=headers, method='GET')
+  File "/powerdns-admin/app/lib/utils.py", line 104, in fetch_json
+    accept='application/json; q=1')
+  File "/powerdns-admin/app/lib/utils.py", line 91, in fetch_remote
+    params=params
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/config (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a69e0b8>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+2018-05-07 06:00:26,021 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:27,025 - app.models - ERROR - Can not get server statistics.
+2018-05-07 06:00:27,026 - app.models - DEBUG - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f301a5d51d0>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a5d51d0>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/powerdns-admin/app/models.py", line 1381, in get_statistic
+    jdata = utils.fetch_json(urljoin(PDNS_STATS_URL, API_EXTENDED_URL + '/servers/{0}/statistics'.format(self.server_id)), headers=headers, method='GET')
+  File "/powerdns-admin/app/lib/utils.py", line 104, in fetch_json
+    accept='application/json; q=1')
+  File "/powerdns-admin/app/lib/utils.py", line 91, in fetch_remote
+    params=params
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a5d51d0>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+2018-05-07 06:00:29,033 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:30,037 - app.models - ERROR - Can not update domain table. Error: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/zones (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a5f4668>: Failed to establish a new connection: [Errno 113] No route to host',))
+2018-05-07 06:00:30,044 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:30,374 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:31,045 - app.models - ERROR - Can not get server statistics.
+2018-05-07 06:00:31,046 - app.models - DEBUG - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f301a660320>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a660320>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/powerdns-admin/app/models.py", line 1381, in get_statistic
+    jdata = utils.fetch_json(urljoin(PDNS_STATS_URL, API_EXTENDED_URL + '/servers/{0}/statistics'.format(self.server_id)), headers=headers, method='GET')
+  File "/powerdns-admin/app/lib/utils.py", line 104, in fetch_json
+    accept='application/json; q=1')
+  File "/powerdns-admin/app/lib/utils.py", line 91, in fetch_remote
+    params=params
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a660320>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+2018-05-07 06:00:33,381 - app.models - ERROR - Can not update domain table. Error: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/zones (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a5d5a20>: Failed to establish a new connection: [Errno 113] No route to host',))
+2018-05-07 06:00:33,388 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:34,028 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:35,029 - app.models - ERROR - Can not get server configuration.
+2018-05-07 06:00:35,030 - app.models - DEBUG - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f301a660828>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/config (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a660828>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/powerdns-admin/app/models.py", line 1366, in get_config
+    jdata = utils.fetch_json(urljoin(PDNS_STATS_URL, API_EXTENDED_URL + '/servers/{0}/config'.format(self.server_id)), headers=headers, method='GET')
+  File "/powerdns-admin/app/lib/utils.py", line 104, in fetch_json
+    accept='application/json; q=1')
+  File "/powerdns-admin/app/lib/utils.py", line 91, in fetch_remote
+    params=params
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/config (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a660828>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+2018-05-07 06:00:35,031 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:36,033 - app.models - ERROR - Can not get server statistics.
+2018-05-07 06:00:36,034 - app.models - DEBUG - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f301a58d208>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a58d208>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/powerdns-admin/app/models.py", line 1381, in get_statistic
+    jdata = utils.fetch_json(urljoin(PDNS_STATS_URL, API_EXTENDED_URL + '/servers/{0}/statistics'.format(self.server_id)), headers=headers, method='GET')
+  File "/powerdns-admin/app/lib/utils.py", line 104, in fetch_json
+    accept='application/json; q=1')
+  File "/powerdns-admin/app/lib/utils.py", line 91, in fetch_remote
+    params=params
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a58d208>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+2018-05-07 06:00:40,401 - app.models - ERROR - Can not get server statistics.
+2018-05-07 06:00:40,402 - app.models - DEBUG - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f301b6d4da0>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301b6d4da0>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/powerdns-admin/app/models.py", line 1381, in get_statistic
+    jdata = utils.fetch_json(urljoin(PDNS_STATS_URL, API_EXTENDED_URL + '/servers/{0}/statistics'.format(self.server_id)), headers=headers, method='GET')
+  File "/powerdns-admin/app/lib/utils.py", line 104, in fetch_json
+    accept='application/json; q=1')
+  File "/powerdns-admin/app/lib/utils.py", line 91, in fetch_remote
+    params=params
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301b6d4da0>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+2018-05-07 06:00:42,920 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:43,921 - app.models - ERROR - Can not update domain table. Error: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/zones (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a5bc2b0>: Failed to establish a new connection: [Errno 113] No route to host',))
+2018-05-07 06:00:43,928 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:44,929 - app.models - ERROR - Can not get server statistics.
+2018-05-07 06:00:44,930 - app.models - DEBUG - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f301b78d1d0>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301b78d1d0>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/powerdns-admin/app/models.py", line 1381, in get_statistic
+    jdata = utils.fetch_json(urljoin(PDNS_STATS_URL, API_EXTENDED_URL + '/servers/{0}/statistics'.format(self.server_id)), headers=headers, method='GET')
+  File "/powerdns-admin/app/lib/utils.py", line 104, in fetch_json
+    accept='application/json; q=1')
+  File "/powerdns-admin/app/lib/utils.py", line 91, in fetch_remote
+    params=params
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301b78d1d0>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+2018-05-07 06:00:56,251 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:57,253 - app.models - ERROR - Can not update domain table. Error: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/zones (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a59b2b0>: Failed to establish a new connection: [Errno 113] No route to host',))
+2018-05-07 06:00:57,259 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:00:58,261 - app.models - ERROR - Can not get server statistics.
+2018-05-07 06:00:58,262 - app.models - DEBUG - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f301a59bcc0>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a59bcc0>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/powerdns-admin/app/models.py", line 1381, in get_statistic
+    jdata = utils.fetch_json(urljoin(PDNS_STATS_URL, API_EXTENDED_URL + '/servers/{0}/statistics'.format(self.server_id)), headers=headers, method='GET')
+  File "/powerdns-admin/app/lib/utils.py", line 104, in fetch_json
+    accept='application/json; q=1')
+  File "/powerdns-admin/app/lib/utils.py", line 91, in fetch_remote
+    params=params
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a59bcc0>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+2018-05-07 06:01:35,581 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:01:36,583 - app.models - ERROR - Cannot add domain test.com.
+2018-05-07 06:01:36,584 - app.models - DEBUG - None
+2018-05-07 06:01:49,286 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:01:50,289 - app.models - ERROR - Cannot add domain test.com.
+2018-05-07 06:01:50,290 - app.models - DEBUG - None
+2018-05-07 06:01:52,003 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:01:53,013 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:01:56,188 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:01:57,189 - app.models - ERROR - Can not update domain table. Error: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/zones (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a5462b0>: Failed to establish a new connection: [Errno 113] No route to host',))
+2018-05-07 06:01:57,195 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.16.82
+2018-05-07 06:01:58,197 - app.models - ERROR - Can not get server statistics.
+2018-05-07 06:01:58,198 - app.models - DEBUG - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f301a5ae1d0>: Failed to establish a new connection: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a5ae1d0>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/powerdns-admin/app/models.py", line 1381, in get_statistic
+    jdata = utils.fetch_json(urljoin(PDNS_STATS_URL, API_EXTENDED_URL + '/servers/{0}/statistics'.format(self.server_id)), headers=headers, method='GET')
+  File "/powerdns-admin/app/lib/utils.py", line 104, in fetch_json
+    accept='application/json; q=1')
+  File "/powerdns-admin/app/lib/utils.py", line 91, in fetch_remote
+    params=params
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.16.82', port=8081): Max retries exceeded with url: /api/v1/servers/localhost/statistics (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f301a5ae1d0>: Failed to establish a new connection: [Errno 113] No route to host',))
+
+2018-05-07 06:18:45,952 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:18:45,959 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 220
+2018-05-07 06:18:46,062 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:18:46,064 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3954
+2018-05-07 06:18:54,201 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:18:54,225 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1164
+2018-05-07 06:18:58,055 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:18:58,080 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1164
+2018-05-07 06:19:02,221 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:19:02,235 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1164
+2018-05-07 06:19:05,732 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:19:05,745 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1164
+2018-05-07 06:19:07,737 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:19:07,767 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1164
+2018-05-07 06:19:10,016 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:19:10,035 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1164
+2018-05-07 06:19:12,227 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:19:12,253 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1164
+2018-05-07 06:19:43,577 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:19:43,583 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 220
+2018-05-07 06:19:43,591 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:19:43,594 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3954
+2018-05-07 06:19:49,272 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:19:49,277 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 220
+2018-05-07 06:19:49,285 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:19:49,288 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 06:20:46,381 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:20:46,396 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1164
+2018-05-07 06:21:00,491 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:21:00,493 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/config HTTP/1.1" 200 19697
+2018-05-07 06:21:00,494 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:21:00,498 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 06:22:05,709 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:22:05,712 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/config HTTP/1.1" 200 19697
+2018-05-07 06:22:05,713 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:22:05,717 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 06:22:12,048 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:22:12,056 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 220
+2018-05-07 06:22:12,063 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:22:12,065 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 06:22:17,287 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:22:17,293 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com/cryptokeys HTTP/1.1" 200 2
+2018-05-07 06:22:21,946 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:22:21,953 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "POST /api/v1/servers/localhost/zones/example.com/cryptokeys HTTP/1.1" 422 76
+2018-05-07 06:22:27,893 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:22:27,905 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1164
+2018-05-07 06:22:42,202 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:22:42,208 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 220
+2018-05-07 06:22:42,215 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:22:42,218 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 06:50:16,609 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:50:16,617 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 220
+2018-05-07 06:50:16,624 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:50:16,627 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3956
+2018-05-07 06:55:48,822 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:55:48,834 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 06:55:48,890 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:55:48,893 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3956
+2018-05-07 06:55:52,079 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:55:52,091 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 06:55:54,829 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:55:54,841 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 06:55:59,381 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:55:59,386 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 06:55:59,393 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:55:59,395 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3956
+2018-05-07 06:56:00,902 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:56:00,918 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 06:56:03,509 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:56:03,514 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 06:56:03,522 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:56:03,525 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3956
+2018-05-07 06:56:07,387 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:56:07,393 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 06:56:07,401 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:56:07,404 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3956
+2018-05-07 06:56:09,848 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 06:56:09,860 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:15:32,357 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:15:32,371 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:15:36,011 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:15:36,017 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:15:36,025 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:15:36,028 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3963
+2018-05-07 07:15:38,718 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:15:38,732 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:15:41,170 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:15:41,188 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:18:49,072 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:18:49,099 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:18:51,223 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:18:51,242 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:18:52,871 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:18:52,888 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:18:58,596 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:18:58,601 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:18:58,609 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:18:58,612 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3964
+2018-05-07 07:19:01,064 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:19:01,099 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:19:02,962 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:19:02,976 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:19:07,135 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:19:07,149 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:19:13,439 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:19:13,441 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/config HTTP/1.1" 200 19697
+2018-05-07 07:19:13,443 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:19:13,446 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3964
+2018-05-07 07:19:15,125 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:19:15,130 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:19:15,138 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:19:15,141 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3964
+2018-05-07 07:20:08,425 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:08,433 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:20:08,440 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:08,444 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3964
+2018-05-07 07:20:10,276 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:10,281 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:20:10,289 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:10,293 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3964
+2018-05-07 07:20:11,526 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:11,533 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:20:11,540 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:11,543 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3964
+2018-05-07 07:20:18,828 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:18,834 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:20:18,842 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:18,844 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3964
+2018-05-07 07:20:20,250 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:20,273 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:20:23,846 - app.views - DEBUG - Your submitted serial: 0
+2018-05-07 07:20:23,847 - app.views - DEBUG - Current domain serial: 0
+2018-05-07 07:20:23,848 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:23,872 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:20:23,873 - app.models - INFO - {'rrsets': []}
+2018-05-07 07:20:23,873 - app.models - INFO - {'rrsets': []}
+2018-05-07 07:20:23,873 - app.models - INFO - http://powerdns:8081/api/v1/servers/localhost/zones/baiyang.com
+2018-05-07 07:20:23,874 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:23,900 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "PATCH /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 204 0
+2018-05-07 07:20:23,903 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:23,913 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "PATCH /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 204 0
+2018-05-07 07:20:23,923 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:23,952 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:20:23,983 - app.models - INFO - Record was applied successfully.
+2018-05-07 07:20:24,068 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:24,081 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:20:26,459 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:26,485 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:20:28,576 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:28,691 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:20:30,214 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:30,223 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:20:30,273 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:30,276 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3964
+2018-05-07 07:20:37,686 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:37,695 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:20:37,702 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:37,705 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3964
+2018-05-07 07:20:42,675 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:20:42,690 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:21:01,816 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:01,856 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:21:03,310 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:03,317 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:21:03,324 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:03,327 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3969
+2018-05-07 07:21:05,331 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:05,336 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:21:05,349 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:05,353 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3969
+2018-05-07 07:21:06,496 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:06,503 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:21:06,512 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:06,514 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3969
+2018-05-07 07:21:10,465 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:10,482 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1164
+2018-05-07 07:21:12,320 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:12,327 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:21:12,334 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:12,337 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3969
+2018-05-07 07:21:13,344 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:13,356 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:21:46,086 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:46,100 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:21:48,110 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:48,130 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:21:48,139 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:48,144 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3969
+2018-05-07 07:21:50,618 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:50,641 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:21:52,326 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:52,339 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:21:52,346 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:21:52,350 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3969
+2018-05-07 07:28:05,287 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:28:05,294 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:28:05,301 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:28:05,305 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3969
+2018-05-07 07:28:08,155 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:28:08,166 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:28:08,175 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:28:08,178 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3969
+2018-05-07 07:28:15,764 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:28:15,781 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:28:39,822 - app.views - DEBUG - Your submitted serial: 0
+2018-05-07 07:28:39,823 - app.views - DEBUG - Current domain serial: 0
+2018-05-07 07:28:39,825 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:28:39,859 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:28:39,860 - app.models - INFO - {'rrsets': [{'name': 'testtest.baiyang.com.', 'type': 'A', 'changetype': 'REPLACE', 'ttl': 3600, 'records': [{'content': '127.0.0.1', 'disabled': False}]}]}
+2018-05-07 07:28:39,860 - app.models - INFO - {'rrsets': []}
+2018-05-07 07:28:39,860 - app.models - INFO - http://powerdns:8081/api/v1/servers/localhost/zones/baiyang.com
+2018-05-07 07:28:39,861 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:28:39,881 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "PATCH /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 204 0
+2018-05-07 07:28:39,882 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:28:39,918 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "PATCH /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 204 0
+2018-05-07 07:28:39,926 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:28:39,961 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 463
+2018-05-07 07:28:40,013 - app.models - INFO - Record was applied successfully.
+2018-05-07 07:28:40,075 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:28:40,088 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 463
+2018-05-07 07:28:42,785 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:28:42,825 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 463
+2018-05-07 07:28:45,192 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:28:45,206 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 463
+2018-05-07 07:29:45,714 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:29:45,731 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 463
+2018-05-07 07:29:48,290 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:29:48,318 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 463
+2018-05-07 07:29:49,174 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:29:49,179 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:29:49,231 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:29:49,235 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3954
+2018-05-07 07:29:52,338 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:29:52,350 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 463
+2018-05-07 07:29:53,979 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:29:53,994 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 463
+2018-05-07 07:29:55,348 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:29:55,371 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 463
+2018-05-07 07:29:57,145 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:29:57,161 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 463
+2018-05-07 07:29:58,449 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:29:58,473 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 463
+2018-05-07 07:30:01,249 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:01,256 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:30:01,266 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:01,269 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3954
+2018-05-07 07:30:02,886 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:02,912 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1164
+2018-05-07 07:30:09,950 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:09,956 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:30:09,963 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:09,966 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3954
+2018-05-07 07:30:17,818 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:17,821 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/config HTTP/1.1" 200 19697
+2018-05-07 07:30:17,822 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:17,825 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3954
+2018-05-07 07:30:19,703 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:19,710 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:30:19,718 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:19,721 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3954
+2018-05-07 07:30:22,504 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:22,511 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:30:22,520 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:22,522 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3954
+2018-05-07 07:30:24,784 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:24,790 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:30:24,797 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:24,800 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3954
+2018-05-07 07:30:26,137 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:30:26,152 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1164
+2018-05-07 07:32:11,427 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:11,455 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1295
+2018-05-07 07:32:13,843 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:13,859 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 1295
+2018-05-07 07:32:46,724 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:46,739 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 330
+2018-05-07 07:32:48,451 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:48,458 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:32:48,498 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:48,501 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 07:32:50,325 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:50,332 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:32:50,342 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:50,345 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 07:32:51,922 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:51,928 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:32:51,937 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:51,940 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 07:32:55,597 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:55,621 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 330
+2018-05-07 07:32:57,283 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:57,289 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:32:57,298 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:57,303 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 07:32:59,538 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:59,546 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:32:59,555 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:32:59,558 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 07:33:15,437 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:33:15,452 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 330
+2018-05-07 07:35:36,740 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:35:36,747 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:35:36,806 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:35:36,809 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 07:35:38,418 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:35:38,423 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:35:38,434 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:35:38,436 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 07:35:39,768 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:35:39,782 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 507
+2018-05-07 07:35:44,465 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:35:44,477 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 507
+2018-05-07 07:35:48,743 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:35:48,775 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 507
+2018-05-07 07:36:52,200 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:36:52,207 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:36:52,214 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:36:52,217 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3955
+2018-05-07 07:36:54,203 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:36:54,215 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 770
+2018-05-07 07:36:56,500 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:36:56,517 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 770
+2018-05-07 07:37:18,084 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:37:18,090 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:37:18,100 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:37:18,102 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3960
+2018-05-07 07:38:06,273 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:38:06,286 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 641
+2018-05-07 07:38:08,836 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:38:08,859 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 641
+2018-05-07 07:38:13,946 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:38:13,976 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 770
+2018-05-07 07:38:41,521 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:38:41,535 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/example.com HTTP/1.1" 200 898
+2018-05-07 07:39:17,119 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:39:17,126 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:39:17,134 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:39:17,138 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3962
+2018-05-07 07:39:18,419 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:39:18,431 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 772
+2018-05-07 07:39:24,169 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:39:24,183 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 772
+2018-05-07 07:40:07,131 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:40:07,145 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 6822
+2018-05-07 07:40:19,649 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:40:19,652 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/config HTTP/1.1" 200 19697
+2018-05-07 07:40:19,653 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:40:19,656 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3962
+2018-05-07 07:40:21,851 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:40:21,853 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/config HTTP/1.1" 200 19697
+2018-05-07 07:40:21,854 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:40:21,857 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3962
+2018-05-07 07:40:23,811 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:40:23,818 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 440
+2018-05-07 07:40:23,827 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:40:23,830 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3962
+2018-05-07 07:40:46,573 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:40:46,588 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 6822
+2018-05-07 07:40:59,979 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:40:59,995 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyang.com HTTP/1.1" 200 6822
+2018-05-07 07:43:39,581 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:43:39,593 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 678
+2018-05-07 07:43:39,627 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:43:39,630 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3963
+2018-05-07 07:43:42,671 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:43:42,684 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyangstatic.com HTTP/1.1" 200 689
+2018-05-07 07:43:44,392 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:43:44,406 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyangstatic.com HTTP/1.1" 200 689
+2018-05-07 07:45:12,943 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:45:12,964 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyangstatic.com HTTP/1.1" 200 1257
+2018-05-07 07:45:21,088 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:45:21,101 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyangstatic.com HTTP/1.1" 200 1257
+2018-05-07 07:45:45,430 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:45:45,444 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones/baiyangstatic.com HTTP/1.1" 200 1257
+2018-05-07 07:45:46,471 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:45:46,476 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 678
+2018-05-07 07:45:46,484 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:45:46,486 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3963
+2018-05-07 07:45:48,735 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:45:48,741 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/zones HTTP/1.1" 200 678
+2018-05-07 07:45:48,748 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): powerdns
+2018-05-07 07:45:48,750 - urllib3.connectionpool - DEBUG - http://powerdns:8081 "GET /api/v1/servers/localhost/statistics HTTP/1.1" 200 3963
